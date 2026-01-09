@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte</title>
+    <style>
+        section {
+            width: 55%;
+            border-radius: 5px;
+            margin-left: 25%;
+            margin-right: 12px;
+            color: gray;
+        }
+
+        h4 {
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .btn-red {
+            color: red;
+        }
+
+        .btn-blue {
+            color: red;
+        }
+
+        .btn-taille {
+            margin-left: 30%;
+        }
+
+        .btn-marge {
+            margin-left: 59%;
+            width: 38%;
+        }
+
+        .btn-marge2 {
+            margin-left: 53%;
+            width: 38%;
+        }
+
+        .btn-marge3 {
+            margin-left: 59%;
+            width: 38%;
+        }
+
+        .btn-choix {
+            margin-left: 48%;
+            border-radius: 6px;
+            width: 50%;
+            padding: 5px;
+        }
+
+        input {
+            padding: 4px;
+            border-radius: 6px;
+            width: 35%;
+        }
+
+        .btn-marge4 {
+            margin-left: 45%;
+            width: 38%;
+        }
+
+        .btn-marge5 {
+            margin-left: 58%;
+            width: 39%;
+        }
+
+        .btn-marge6 {
+            margin-left: 57%;
+            width: 40%;
+        }
+
+        .btn-marge7 {
+            margin-left: 57%;
+            width: 40%;
+        }
+
+        .btn-bouton1 {
+            background-color: rgb(50, 206, 206);
+            border-color: rgb(50, 206, 206);
+            border-radius: 5px;
+            color: white;
+            padding: 5px;
+        }
+
+        .btn-valid {
+            background-color: rgb(25, 126, 25);
+            border-color: rgb(25, 126, 25);
+            margin-left: 40%;
+            border-radius: 5px;
+            color: white;
+            padding: 5px;
+        }
+
+        .btn-annul {
+            background-color: rgb(165, 54, 54);
+            border-color: rgb(165, 54, 54);
+            margin-left: 1%;
+            border-radius: 5px;
+            color: white;
+            padding: 5px;
+        }
+
+        .captcha-img {
+            padding: 5px 10px;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 3px;
+            transform: skew(-10deg);
+            user-select: none;
+            margin-left: 74%;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h4>Création de votre compte d'accés</h4>
+    </section>
+</body>
+
+<body>
+    <section>
+        <form action="">
+            <ul>
+                <li class="btn btn-red">Tous les champs sont obligatoires</li>
+                <li class="btn btn-blue">Le mot de passe doit contenir 8 caractères minimum avec un mélange de chiffres
+                    et de lettres.</li>
+            </ul>
+    </section>
+    <label>
+        <section>
+            <form action="">
+                <label for="Type d'identifiant:">Type d'identifiant:</label>
+                <td>
+                    <select class="btn btn-choix">
+                        <option>Selectionnez le type d'identifiant</option>
+                        <option>CNI</option>
+                        <option>Passeport</option>
+                    </select>
+                </td>
+                <hr>
+                <label for="Votre identifiant:">Votre identifiant:</label>
+                <input class="btn btn-marge" type="text" placeholder="Votre identifiant">
+                </hr>
+                <hr>
+                <label for="Nom:">Nom:</label>
+                <input class="btn btn-marge2" type="Nom de famille" placeholder="Nom de famille">
+                </hr>
+                <hr>
+                <label for="Prénom">Prénom:</label>
+                <input class="btn btn-marge3" type="Prénom" placeholder="Prénom">
+                </hr>
+                <hr>
+                <label for="Mot de passe:">Mot de passe:</label>
+                <input class="btn btn-marge4" type="Créer un mot de passe pour la connexion"
+                    placeholder="Créer un mot de passe pour la connexion">
+                </hr>
+                <hr>
+                <label for="Confirmation du mot de passe:">Confirmation du mot de passe:</label>
+                <input class="btn btn-marge5" type="Confirmer votre mot de passe"
+                    placeholder="Confirmer votre mot de passe">
+                </hr>
+                <hr>
+                <label for="E-mail Personnel:">E-mail Personnel:</label>
+                <input class="btn btn-marge6" type="E-mail Personnel" placeholder="E-mail Personnel">
+                </hr>
+                <hr>
+                <label for="Captcha:">Captcha:</label>
+                </hr>
+                <input class="btn btn-marge7" type="Saisissez les caractères ci-dessous"
+                    placeholder="Saisissez les caractères ci-dessous">
+                </hr>
+                <div class="captcha-img">RX7H
+                </div>
+        </section>
+        <section>
+            <div class="actions">
+                <button class="btn btn-bouton1">Régénérer</button>
+            </div>
+        </section>
+    </label>
+    <section>
+
+        <div class="actions">
+            <button class="btn btn-valid">Valider</button>
+            <button class="btn btn-annul">Annuler</button>
+    </section>
+</body>
+
+</html>

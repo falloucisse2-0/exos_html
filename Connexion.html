@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <style>
+        section {
+            width: 50%;
+            border: 2px solid;
+            border-radius: 5px;
+            margin-left: 25%;
+            color: white;
+        }
+
+        h4 {
+            text-align: center;
+            background-color: lightgray;
+            padding: 25px;
+        }
+
+        #info {
+            background-color: rgb(142, 205, 230);
+            margin: 5px;
+            color: rgb(32, 144, 188);
+            padding: 10px;
+        }
+
+        input {
+            padding: 6px;
+            border-radius: 5px;
+            width: 80%;
+            margin: 13px;
+        }
+
+        button {
+            padding: 6px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .divbtn button {
+            background-color: rgb(53, 167, 237);
+            border-color: rgb(88, 156, 183);
+        }
+
+        .divbtn {
+            margin-left: 77%;
+        }
+
+        .btn-orange {
+            background-color: orange;
+            border-color: orange;
+        }
+
+        .btn-blue {
+            background-color: blue;
+            border-color: blue;
+        }
+
+        .btn-green {
+            background-color: rgb(49, 219, 49);
+            border-color: rgb(49, 219, 49);
+            color: white;
+            border-radius: 5px;
+        }
+
+        .actions {
+            margin-left: 10%;
+        }
+
+        .lien {
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+
+        }
+
+        .fa-user {
+            color: gray;
+            border-color: gray;
+        }
+
+        .fa-lock {
+            color: gray;
+            border-color: gray;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <section>
+        <h4>Espace étudiants</h4>
+        <div id="info">Veuillez renseigner le nom de l'utilisateur et le mot de passe</div>
+        <form>
+            <div class="icone">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Nom d'utilisateur">
+            </div>
+            <form>
+                <div class="icone">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Mot de passe">
+                </div>
+            </form>
+            <div class="divbtn">
+                <button>Se connecter</button>
+            </div>
+
+        </form>
+    </section>
+    <section>
+        <div class="actions">
+            <button class="btn btn-orange">Mot de passe oublié</button>
+            <button class="btn btn-blue">Vérifier autorisation?</button>
+            <button class="btn btn-green"><a href="Compte.html" class=lien>Créer un Compte</a></button>
+        </div>
+    </section>
+</body>
+
+</html>
